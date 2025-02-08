@@ -12,12 +12,12 @@
       padding: 0;
       line-height: 1.6;
       color: #333;
+      text-align: center;
     }
     header {
       background: linear-gradient(to right, #4caf50, #81c784);
       color: white;
       padding: 2rem 0;
-      text-align: center;
     }
     header h1 {
       margin: 0;
@@ -31,7 +31,6 @@
       background: #333;
       color: white;
       padding: 1rem;
-      text-align: center;
     }
     nav a {
       color: white;
@@ -56,18 +55,22 @@
       font-size: 1.2rem;
     }
     section {
-      padding: 2rem 1rem;
+      padding: 2rem;
       max-width: 800px;
       margin: 0 auto;
+      text-align: center;
     }
     section h2 {
       border-bottom: 2px solid #4caf50;
       display: inline-block;
+      padding-bottom: 5px;
       margin-bottom: 1rem;
     }
     ul {
       list-style: none;
       padding: 0;
+      text-align: left;
+      display: inline-block;
     }
     ul li {
       margin: 0.5rem 0;
@@ -83,14 +86,31 @@
       background: #f9f9f9;
       padding: 2rem;
       border: 1px solid #ddd;
+      border-radius: 8px;
+      display: inline-block;
+      width: 100%;
+      max-width: 500px;
       text-align: center;
-      margin: 2rem 0;
+      margin: 2rem auto;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .contact-box p {
+      font-size: 1.1rem;
+      margin: 0.5rem 0;
+    }
+    .contact-box a {
+      color: #4caf50;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .contact-box a:hover {
+      text-decoration: underline;
     }
     footer {
       background: #333;
       color: white;
-      text-align: center;
       padding: 1rem 0;
+      margin-top: 2rem;
     }
     footer a {
       color: #81c784;
@@ -130,9 +150,9 @@
       </ul>
     </section>
     <section id="contact" class="contact-box">
-      <h3>Contact Us</h3>
-      <p>Email: <strong><a href="mailto:info@qlbconsultings.com">info@qlbconsultings.com</a></strong></p>
-      <p>Phone: <strong>(123) 456-7890</strong></p>
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:qtran@qlbconsultings.com">qtran@qlbconsultings.com</a></p>
+      <p>Phone: <a href="tel:+14076170284">(407) 617-0284</a></p>
       <p>Address: 123 Business Street, Your City, Your State</p>
     </section>
   </main>
